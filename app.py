@@ -16,6 +16,11 @@ def hello():
 
     return jsonify({"message": "Hello, World!"})
 
+@app.route('/apoli', methods=['GET'])
+
+def apoli():
+
+    return jsonify({"message": "Hello, Apoli!"})
  
 
 @app.route('/users', methods=['GET'])
