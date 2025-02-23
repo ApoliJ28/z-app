@@ -36,7 +36,7 @@ jobs:
 
         HOST_NAME: ${{ secrets.EC2_PUBLIC_IP }}
 
-        USER_NAME: ${{ secrets.EC2_USER_NAME }}
+        USER_NAME: ${{ secrets.EC2_USER }}
 
       run: |
 
